@@ -72,6 +72,7 @@ export default function SignIn() {
                             label="Username"
                             name="username"
                             autoComplete="username"
+                            defaultValue="erdemkeren"
                             autoFocus
                         />
                         <TextField
@@ -82,7 +83,8 @@ export default function SignIn() {
                             label="Password"
                             type="password"
                             id="password"
-                            autoComplete="current-password"
+                            defaultValue="current-password"
+                            value="pwd2022"
                         />
                         {auth.status === 'failed' && (
                             <Alert severity="warning">
