@@ -83,8 +83,8 @@ export default function SignIn() {
                             label="Password"
                             type="password"
                             id="password"
-                            defaultValue="current-password"
-                            value="pwd2022"
+                            autoComplete="current-password"
+                            defaultValue="pwd2022"
                         />
                         {auth.status === 'failed' && (
                             <Alert severity="warning">
