@@ -1,4 +1,12 @@
 export let users = {
+  erdemkeren: {
+    id: 'erdemkeren',
+    password:'pwd2022',
+    name: 'Erdem Keren',
+    avatarURL: 'https://www.w3schools.com/w3images/avatar2.png',
+    answers: {},
+    questions: []
+  },
   sarahedo: {
     id: 'sarahedo',
     password:'password123',
