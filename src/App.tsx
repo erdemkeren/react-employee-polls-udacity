@@ -70,7 +70,7 @@ function App() {
                         )}
                     />
                     <Route
-                        path="/question/:question"
+                        path="/questions/:question"
                         element={(<QuestionDetailPage isLoading={loading}/>)}
                     />
                     <Route

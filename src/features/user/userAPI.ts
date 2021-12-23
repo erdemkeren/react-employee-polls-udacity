@@ -1,4 +1,4 @@
-import {users} from "../../_DATA";
+import {users} from "../../data/_DATA";
 import {User} from "../../types";
 
 interface UsersResponse {

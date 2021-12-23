@@ -1,4 +1,4 @@
-import {users} from '../../_DATA';
+import {users} from '../../data/_DATA';
 import {questionOptions} from "../../types";
 
 // A login function to mimic making an async request for data

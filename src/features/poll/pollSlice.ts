@@ -119,7 +119,7 @@ export const pollSlice = createSlice({
                             ...action.payload,
                         },
                     },
-                    allIds: [...state.questions.allIds, action.payload.id],
+                    allIds: [action.payload.id, ...state.questions.allIds],
                 },
             }))
             .addCase(storeQuestionAsync.rejected, (state) => {

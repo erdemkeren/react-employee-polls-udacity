@@ -45,6 +45,9 @@ const NewQuestionPage = () => {
             <Typography variant="h2" component="div" gutterBottom>
                 Add Question
             </Typography>
+            <Typography variant="body2" component="div" gutterBottom>
+                Would You Rather
+            </Typography>
             <Box component="form" noValidate autoComplete="off" onSubmit={handleSubmit}>
                 <Box sx={styles.boxSx}>
                     <TextField fullWidth label="Option One" name="optionOneText"/>
@@ -53,7 +56,6 @@ const NewQuestionPage = () => {
                 <Box sx={styles.boxSx}>
                     <TextField fullWidth label="Option Two" name="optionTwoText"/>
                 </Box>
-
 
                 <Box sx={styles.boxSx}>
                     {poll.status === 'failed' && (

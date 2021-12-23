@@ -1,4 +1,4 @@
-import {_getQuestions, _saveQuestion, _saveQuestionAnswer} from "../../_DATA";
+import {_getQuestions, _saveQuestion, _saveQuestionAnswer} from "../../data/_DATA";
 
 type Option = {
     votes: Array<string>,

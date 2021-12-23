@@ -13,7 +13,7 @@ const QuestionListItem = ({question}: QuestionListItemProps) => {
     const navigate = useNavigate();
 
     const handleClick = () => navigate(
-        generatePath('/question/:question', {question: question.id})
+        generatePath('/questions/:question', {question: question.id})
     );
 
     return (

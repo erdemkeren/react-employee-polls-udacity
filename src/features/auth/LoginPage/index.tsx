@@ -1,4 +1,5 @@
 import * as React from 'react';
+import Alert from '@mui/material/Alert';
 import Avatar from '@mui/material/Avatar';
 import LoadingButton from '@mui/lab/LoadingButton';
 import CssBaseline from '@mui/material/CssBaseline';
@@ -11,7 +12,6 @@ import Container from '@mui/material/Container';
 import {createTheme, ThemeProvider} from '@mui/material/styles';
 import {useAppSelector, useAppDispatch} from '../../../app/hooks';
 import {loginAsync, authSelector} from "../authSlice";
-import {Alert} from "@mui/lab";
 
 function Copyright(props: any) {
     return (
